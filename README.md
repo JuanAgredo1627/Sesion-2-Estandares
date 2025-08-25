@@ -1,51 +1,21 @@
-# 📑 IEEE 29119-3 – Plantillas de Pruebas de Software
+# IEEE 29119-3 – Plantillas de Documentación de Pruebas
 
-Este repositorio contiene las plantillas basadas en la norma **IEEE 29119-3:2013**, que definen la documentación estándar del proceso de pruebas de software.  
-La organización facilita el acceso a cada documento y su aplicación en proyectos reales.
+Este repositorio contiene plantillas didácticas basadas en la norma **ISO/IEC/IEEE 29119-3** para documentar pruebas de software.  
+Cada documento está en `/docs` y puede adaptarse a proyectos ágiles, cascada o híbridos.
 
----
+## 📂 Contenido
+- 📖 [Plan de Pruebas](docs/PLAN_DE_PRUEBAS.md)
+- 📝 [Diseño de Pruebas](docs/DISEÑO_DE_PRUEBAS.md)
+- ✅ [Casos de Prueba](docs/CASOS_DE_PRUEBA.md)
+- 🔄 [Procedimientos de Prueba](docs/PROCEDIMIENTOS_DE_PRUEBA.md)
+- 📊 [Registro de Ejecución](docs/REGISTRO_EJECUCION.md)
+- 📑 [Informe Resumen](docs/INFORME_RESUMEN.md)
+- 🐞 [Incidentes](docs/INCIDENTES.md)
 
-## 📂 Documentos Incluidos
+## 🎯 Objetivo
+Proveer una base reutilizable y trazable para planificar, diseñar, ejecutar y reportar pruebas, alineada a IEEE 29119-3.
 
-1. **Plan de Pruebas**  
-   - Define el alcance, la estrategia, los recursos, roles y el cronograma de las pruebas.  
-   - 📁 [01-Plan-Pruebas](./01-Plan-Pruebas/)
+## 🔗 Trazabilidad sugerida
+- Requisitos ↔ Diseño de pruebas ↔ Casos ↔ Procedimientos ↔ Registros ↔ Incidentes ↔ Informe resumen
 
-2. **Diseño de Pruebas**  
-   - Describe cómo se cubrirán los requisitos mediante casos de prueba.  
-   - 📁 [02-Diseno-Pruebas](./02-Diseno-Pruebas/)
 
-3. **Casos de Prueba**  
-   - Detalla entradas, pasos, datos, resultados esperados y condiciones.  
-   - 📁 [03-Casos-Prueba](./03-Casos-Prueba/)
-
-4. **Procedimientos de Prueba**  
-   - Explica paso a paso cómo ejecutar los casos de prueba.  
-   - 📁 [04-Procedimientos](./04-Procedimientos/)
-
-5. **Registro de Pruebas (Logs)**  
-   - Evidencia de ejecución de las pruebas, resultados obtenidos y observaciones.  
-   - 📁 [05-Registro-Pruebas](./05-Registro-Pruebas/)
-
-6. **Informe de Resumen de Pruebas**  
-   - Consolida los resultados y conclusiones sobre la calidad del software probado.  
-   - 📁 [06-Informe-Resumen](./06-Informe-Resumen/)
-
-7. **Informe de Incidentes**  
-   - Documento donde se registran los errores, defectos o incidentes detectados.  
-   - 📁 [07-Informe-Incidentes](./07-Informe-Incidentes/)
-
----
-
-## ✅ Uso
-
-- Cada carpeta contiene una **plantilla editable** en Word o Excel.  
-- Los documentos pueden adaptarse según las necesidades del proyecto.  
-- Se recomienda seguir el orden establecido para mantener trazabilidad.
-
----
-
-## 📌 Referencia
-
-Norma: **IEEE 29119-3:2013 – Software Testing – Test Documentation**  
-Más información: [ISO/IEC/IEEE 29119](https://www.iso.org/standard/45170.html)
